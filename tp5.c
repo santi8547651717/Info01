@@ -15,7 +15,7 @@ int main() {
 			printf("Nota %d: ", i + 1);
 			scanf("%f", &nota);
 			if (nota < 0 || nota > 100)
-				printf("Nota inv·lida. Debe estar entre 0 y 100.\n");
+				printf("Nota inv√°lida. Debe estar entre 0 y 100.\n");
 		} while (nota < 0 || nota > 100);
 		
 		suma += nota;
